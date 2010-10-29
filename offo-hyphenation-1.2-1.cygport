@@ -1,0 +1,13 @@
+DESCRIPTION="Hyphenation patterns for Apache Fop"
+HOMEPAGE="http://offo.sourceforge.net/"
+SRC_URI="mirror://sourceforge/offo/${PN}_v${PV}.zip"
+SRC_DIR=${PN}
+
+src_compile() { :; }
+
+src_install() {
+	cd ${S}
+	insinto /usr/share/offo/hyph
+	doins hyph/*
+	dodoc licenses.html
+}

@@ -1,0 +1,6 @@
+category: Graphics
+requires:
+sdesc: "Hyphenation files for Apache FOP"
+ldesc: "The project ‘Objects For Formatting Objects’ (OFFO) hosts 
+hyphenation pattern files in the XML format used by the Formatting 
+Object Processor Apache Fop."
